@@ -1,0 +1,26 @@
+准确率Accuracy:0.9600
+精确度Precision:0.9574
+召回率Recall:0.9323
+F1值:0.9447
+AUC值:0.9908
+---------------------------------------
+Feature ranking:
+ 1) domain_len                     0.131976
+ 2) others_count                   0.117798
+ 3) reversed_count                 0.115925
+ 4) domain_max_len                 0.096925
+ 5) path_max_len                   0.084896
+ 6) url_len                        0.078501
+ 7) substr_max_len                 0.046232
+ 8) digits_percent                 0.045986
+ 9) query_len_list                 0.044434
+10) trans_frequen                  0.037238
+11) and_count_in_query_list        0.036273
+12) digits_max_len                 0.031100
+13) digits_count                   0.030827
+14) char_max_len                   0.029232
+15) upcase_percent                 0.027751
+16) upcase_count                   0.021141
+17) unsafe_count                   0.013914
+18) is_params_satisfied            0.008836
+19) is_hostname_ip                 0.001015

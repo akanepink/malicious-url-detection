@@ -1,0 +1,74 @@
+param_test1={'n_estimators':range(200,400,25)}
+{'n_estimators': 250} 0.9730514935678849
+
+{'n_estimators': 350} 0.9963431301118106
+
+{'n_estimators': 350} 0.9963381646580393
+
+{'n_estimators': 375} 0.9963544359076641
+------RandomForest------
+准确率Accuracy:0.9690
+精确度Precision:0.9788
+召回率Recall:0.9768
+F1值:0.9778
+AUC值:0.9928
+
+------DecisionTree------
+准确率Accuracy:0.9587
+精确度Precision:0.9708
+召回率Recall:0.9702
+F1值:0.9705
+AUC值:0.9512
+
+
+{'n_estimators': 300} 0.974480681557934
+
+Training Score:0.965643
+Testing Score:0.959500
+---------------------------------------
+准确率Accuracy:0.9595
+精确度Precision:0.9622
+召回率Recall:0.9807
+F1值:0.9714
+AUC值:0.9925
+---------------------------------------
+交叉验证准确率:0.96
+
+
+n_estimators=250
+max_depth=None,min_samples_split=2
+
+准确率Accuracy:0.9741
+精确度Precision:0.9784
+召回率Recall:0.9847
+F1值:0.9815
+AUC值:0.9966
+---------------------------------------
+n_estimators=300
+max_depth=None,min_samples_split=2
+
+准确率Accuracy:0.9736
+精确度Precision:0.9779
+召回率Recall:0.9846
+F1值:0.9812
+AUC值:0.9967
+---------------------------------------
+n_estimators=350
+max_depth=None,min_samples_split=2
+
+准确率Accuracy:0.9739
+精确度Precision:0.9783
+召回率Recall:0.9846
+F1值:0.9814
+AUC值:0.9967
+
+
+
+#max_features=10
+clf = ensemble.RandomForestClassifier(max_depth=None,min_samples_split=2,max_features=10)
+准确率Accuracy:0.9746
+精确度Precision:0.9660
+召回率Recall:0.9487
+F1值:0.9573
+AUC值:0.9967
+

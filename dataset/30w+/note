@@ -1,0 +1,31 @@
+600棵左右
+10min左右
+Training Score:0.997804
+Testing Score:0.962753
+---------------------------------------
+准确率Accuracy:0.9628
+精确度Precision:0.9651
+召回率Recall:0.9355
+F1值:0.9501
+AUC值:0.9927
+---------------------------------------
+Feature ranking:
+ 1) domain_len                     0.198687
+ 2) others_count                   0.165713
+ 3) domain_max_len                 0.132914
+ 4) trans_frequen                  0.099385
+ 5) path_max_len                   0.067802
+ 6) reversed_count                 0.065253
+ 7) url_len                        0.061688
+ 8) digits_count                   0.036454
+ 9) substr_max_len                 0.035085
+10) digits_percent                 0.031960
+11) char_max_len                   0.025596
+12) upcase_percent                 0.017623
+13) digits_max_len                 0.016571
+14) is_params_satisfied            0.012329
+15) query_len_list                 0.010348
+16) upcase_count                   0.010335
+17) unsafe_count                   0.006964
+18) and_count_in_query_list        0.003685
+19) is_hostname_ip                 0.001610
